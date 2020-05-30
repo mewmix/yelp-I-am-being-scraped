@@ -5,7 +5,7 @@ import requests
 
 #yelp url to access all businesses in los angeles
 print('--------Getting URLs---------')
-URL = ['https://www.yelp.com/search?find_desc=&find_loc=Los%20Angeles%2C%20CA&ns=1&start={}'.format(i*10) for i in range(20)]
+URL = ['https://www.yelp.com/search?find_desc=Restaurants&find_loc=Laguna%20Niguel'.format(i*10) for i in range(20)]
 print('Done.', end='\n\n')
 
 #get the html content of all the pages in the url array
